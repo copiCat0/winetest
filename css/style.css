@@ -1,0 +1,13 @@
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.result{
+  display: none;
+}
+
+.question{
+  display: none;
+}
+
