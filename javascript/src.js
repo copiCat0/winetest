@@ -17,8 +17,8 @@ let q = {
 };
 let result = {
   "ISTJ":{"wine":"샴페인", "explain":"톡톡튀는 샴페인에 대한 설명", "img":"./images/champagne.jpg"},
-  "ENTP":{"wine":"말벡", "explain":"야생마 같은 말백", "img":"./images/champagne.jpg"},
-  "ENTJ":{"wine":"샴페인", "explain":"톡톡튀는 샴페인에 대한 설명", "img":"./images/champagne.jpg"},
+  "ISFJ":{"wine":"말벡", "explain":"야생마 같은 말백", "img":"./images/champagne.jpg"},
+  "INFJ":{"wine":"샴페인", "explain":"톡톡튀는 샴페인에 대한 설명", "img":"./images/champagne.jpg"},
   "ISTJ":{"wine":"샴페인", "explain":"톡톡튀는 샴페인에 대한 설명", "img":"./images/champagne.jpg"},
   "ISTJ":{"wine":"샴페인", "explain":"톡톡튀는 샴페인에 대한 설명", "img":"./images/champagne.jpg"},
   "ISTJ":{"wine":"샴페인", "explain":"톡톡튀는 샴페인에 대한 설명", "img":"./images/champagne.jpg"},
@@ -43,6 +43,10 @@ $("#A").click(function(){
   let type = $("#type").val();
   let preValue = $("#"+type).val();
   console.log(parseInt(preValue)+1);
+  next();
+});
+
+$("#B").click(function(){
   next();
 });
 
